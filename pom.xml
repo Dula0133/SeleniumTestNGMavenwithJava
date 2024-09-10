@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Selenium_java_TestNG_with_Maven</artifactId>
+    <artifactId>Selenium_TestNG_Maven_with_Java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

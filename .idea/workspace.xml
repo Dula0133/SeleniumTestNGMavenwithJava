@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="Link the project" />
+    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="Add maven,selenium and testNG dependencies to pom file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestTestNG">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Selenium_TestNG_Maven_with_Java" />
@@ -55,8 +58,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_TestNG_Maven_with_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestTestNG" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -77,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725969436150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add maven,selenium and testNG dependencies to pom file">
+      <created>1725969915871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725969915871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,14 +121,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Link the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link the project" />
+    <MESSAGE value="Add maven,selenium and testNG dependencies to pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add maven,selenium and testNG dependencies to pom file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>4</line>
+          <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
