@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java">
+        <classes>
+            <class name="org.example.DependsOnMethod">
+             <methods>
+                    <include name="oLevel"/>
+                    <include name="aLevel"/>
+                    <include name="campus"/>
+                </methods>
+            </class>
+            <class name="org.example.PriorityTest">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="Create"/>
+                    <include name="testEdit"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

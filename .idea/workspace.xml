@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="TestNG Priority test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DependsOnMethod.java" afterDir="false" />
+    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="TestNG DependsonMethod test">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +40,22 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2lsW4i5ddwsyIC8aJ5OD8sInJq2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DependsOnMethod">
+  <component name="RunManager" selected="TestNG.C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java/testng.xml">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Selenium_TestNG_Maven_with_Java" />
@@ -62,6 +65,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_TestNG_Maven_with_Java" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java/testng.xml" />
         <item itemvalue="TestNG.DependsOnMethod" />
         <item itemvalue="TestNG.PriorityTest" />
         <item itemvalue="TestNG.TestTestNG" />
@@ -163,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725981912146</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestNG DependsonMethod test">
+      <created>1725985509985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725985509985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,11 +199,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Link the project" />
     <MESSAGE value="Add maven,selenium and testNG dependencies to pom file" />
     <MESSAGE value="test TestNG codes" />
     <MESSAGE value="TestNG Priority test" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Priority test" />
+    <MESSAGE value="TestNG DependsonMethod test" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG DependsonMethod test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
