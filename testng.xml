@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Group Test Suite">
+<suite name="Group Test Suite" parallel="methods" thread-count="2">
     <test verbose="2" preserve-order="true" name="C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java">
 
-        <groups>
-            <run>
-                <include name="S"/>
-            </run>
-        </groups>
         <classes>
-            <class name="org.example.Grouping">
+            <class name="org.example.ParallelTests">
             </class>
-
         </classes>
     </test>
 </suite>
