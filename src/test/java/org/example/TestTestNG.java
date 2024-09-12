@@ -8,7 +8,7 @@ public class TestTestNG {
     @Test
     public void exampleTest() {
 //        WebDriverManager.chromiumdriver().setup();
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.google.com/");
         driver.quit();
