@@ -29,4 +29,15 @@ public class Alerts {
         alert.accept();
 
     }
+
+    @Test
+    public void cancelAlert() throws InterruptedException {
+        WebElement alertBox= driver.findElement(By.id("j_idt88:j_idt93"));
+        alertBox.click();
+
+        Alert confirmBox= driver.switchTo().alert();
+        Thread.sleep(2000);
+        confirmBox.dismiss();
+
+    }
 }
