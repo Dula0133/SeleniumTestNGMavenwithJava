@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="Working with links">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingWithTestBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java" afterDir="false" />
+    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="Working with dropdowns">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Alerts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,25 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.WorkingwithDropdowns.getCount">
+  <component name="RunManager" selected="TestNG.Alerts.checkAlert">
+    <configuration name="Alerts.checkAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_TestNG_Maven_with_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Alerts" />
+      <option name="METHOD_NAME" value="checkAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkingWithTestBoxes.getText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TestNG_Maven_with_Java" />
       <extension name="coverage">
@@ -69,24 +87,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithTestBoxes" />
       <option name="METHOD_NAME" value="getText" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkingWithTestBoxes.textBoxAvailable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_TestNG_Maven_with_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithTestBoxes" />
-      <option name="METHOD_NAME" value="textBoxAvailable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Alerts.checkAlert" />
         <item itemvalue="TestNG.WorkingwithDropdowns.getCount" />
         <item itemvalue="TestNG.WorkingwithDropdowns.dropdownTest1" />
         <item itemvalue="TestNG.WorkingWithTestBoxes.getText" />
         <item itemvalue="TestNG.WorkingWithTestBoxes.textClear" />
-        <item itemvalue="TestNG.WorkingWithTestBoxes.textBoxAvailable" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726232264660</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Working with dropdowns">
+      <created>1726409218575</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726409218575</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +262,8 @@
     <MESSAGE value="TestNG Grouping" />
     <MESSAGE value="TestNG parallel tests" />
     <MESSAGE value="Working with links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with links" />
+    <MESSAGE value="Working with dropdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with dropdowns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -264,6 +272,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Alerts.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java</url>

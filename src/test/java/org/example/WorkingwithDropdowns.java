@@ -43,5 +43,13 @@ public class WorkingwithDropdowns {
         }
     }
 
+    @Test
+    public void dropdown2(){
+        //selecting using bootstrap dropdown
+        WebElement drop2= driver.findElement(By.xpath("j_idt87:city_label"));
+        drop2.click();
+
+        List<WebElement> drop2values= driver.findElements(By.xpath(""));
+    }
 
 }
