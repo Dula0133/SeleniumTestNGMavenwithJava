@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="TestNG parallel tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingwithLinks.java" afterDir="false" />
+    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="Working with links">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingWithTestBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,30 +57,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.WorkingwithLinks">
-    <configuration name="C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_TestNG_Maven_with_Java" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter2" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WorkingwithDropdowns.getCount">
+    <configuration name="WorkingWithTestBoxes.getText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TestNG_Maven_with_Java" />
       <extension name="coverage">
         <pattern>
@@ -88,25 +67,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DependsOnMethod" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grouping.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_TestNG_Maven_with_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Grouping" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithTestBoxes" />
+      <option name="METHOD_NAME" value="getText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelTests.open" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkingWithTestBoxes.textBoxAvailable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TestNG_Maven_with_Java" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +85,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ParallelTests" />
-      <option name="METHOD_NAME" value="open" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithTestBoxes" />
+      <option name="METHOD_NAME" value="textBoxAvailable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingwithLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkingWithTestBoxes.textClear" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TestNG_Maven_with_Java" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +103,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingwithLinks" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingWithTestBoxes" />
+      <option name="METHOD_NAME" value="textClear" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkingwithDropdowns.dropdownTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_TestNG_Maven_with_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingwithDropdowns" />
+      <option name="METHOD_NAME" value="dropdownTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkingwithDropdowns.getCount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_TestNG_Maven_with_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WorkingwithDropdowns" />
+      <option name="METHOD_NAME" value="getCount" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WorkingwithLinks" />
-        <item itemvalue="TestNG.C:/Users/dulashi/IdeaProjects/Selenium_TestNG_Maven_with_Java/testng.xml" />
-        <item itemvalue="TestNG.ParallelTests.open" />
-        <item itemvalue="TestNG.Grouping.test01" />
-        <item itemvalue="TestNG.DependsOnMethod" />
+        <item itemvalue="TestNG.WorkingwithDropdowns.getCount" />
+        <item itemvalue="TestNG.WorkingwithDropdowns.dropdownTest1" />
+        <item itemvalue="TestNG.WorkingWithTestBoxes.getText" />
+        <item itemvalue="TestNG.WorkingWithTestBoxes.textClear" />
+        <item itemvalue="TestNG.WorkingWithTestBoxes.textBoxAvailable" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726150829583</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Working with links">
+      <created>1726232264660</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726232264660</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +254,8 @@
     <MESSAGE value="TestNG XML File test" />
     <MESSAGE value="TestNG Grouping" />
     <MESSAGE value="TestNG parallel tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG parallel tests" />
+    <MESSAGE value="Working with links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,10 +265,14 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/WorkingwithLinks.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/WorkingwithDropdowns.java</url>
+          <line>24</line>
+          <properties class="org.example.WorkingwithDropdowns" method="dropdownTest1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
