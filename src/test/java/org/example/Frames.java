@@ -25,6 +25,16 @@ public class Frames {
         clickButton.click();
         String text= clickButton.getText();
         System.out.println("Clicked the Button with message:"+text);
+
+       driver.switchTo().defaultContent();
+        driver.switchTo().frame(2);
+        driver.switchTo().frame("frame2");
+        WebElement newFrame= driver.findElement(By.xpath("//button[@id='Click']"));
+        newFrame.click();
+        String text1= newFrame.getText();
+        System.out.println("Clicked the Button with message:"+text1);
     }
+
+
 
 }

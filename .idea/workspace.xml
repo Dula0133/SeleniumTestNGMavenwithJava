@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="prompt dialog">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Frames.java" afterDir="false" />
+    <list default="true" id="2679c057-c5c4-46a7-bdbc-4abbf389ac1c" name="Changes" comment="navigate to an iframe and click a button.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Frames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingwithDropdowns.getCount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frames.navigatetoMain" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_TestNG_Maven_with_Java" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.WorkingwithDropdowns" />
-      <option name="METHOD_NAME" value="getCount" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Frames" />
+      <option name="METHOD_NAME" value="navigatetoMain" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Frames.navigatetoFrame" />
+        <item itemvalue="TestNG.Frames.navigatetoMain" />
         <item itemvalue="TestNG.Alerts.dialogAlert" />
         <item itemvalue="TestNG.Alerts.cancelAlert" />
         <item itemvalue="TestNG.Alerts.checkAlert" />
-        <item itemvalue="TestNG.WorkingwithDropdowns.getCount" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726414241452</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="navigate to an iframe and click a button.">
+      <created>1726660178769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726660178769</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +286,8 @@
     <MESSAGE value="Confirm alert" />
     <MESSAGE value="cancel alert" />
     <MESSAGE value="prompt dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="prompt dialog" />
+    <MESSAGE value="navigate to an iframe and click a button." />
+    <option name="LAST_COMMIT_MESSAGE" value="navigate to an iframe and click a button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,6 +310,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Frames.java</url>
+          <line>21</line>
+          <properties class="org.example.Frames" method="navigatetoFrame">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
