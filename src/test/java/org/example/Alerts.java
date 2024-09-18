@@ -40,4 +40,18 @@ public class Alerts {
         confirmBox.dismiss();
 
     }
+
+    @Test
+    public void dialogAlert() throws InterruptedException {
+        //prompt dialog
+        WebElement alertBox2= driver.findElement(By.id("j_idt88:j_idt104"));
+        alertBox2.click();
+
+        Alert confirmBox2= driver.switchTo().alert();
+        confirmBox2.sendKeys("Dulashi Yapa");
+        Thread.sleep(2000);
+        confirmBox2.accept();
+
+    }
+
 }
